@@ -63,6 +63,14 @@ class Book(models.Model):  #Модель кинги
         """
         return reverse('book-detail', args=[str(self.id)])
 
+    def display_genre(self):
+        """
+        Creates a string for the Genre. This is required to display genre in Admin.
+        """
+        return ', '.join([genre.name for genre in self.genre.all()[:3]])
+    display_genre.short_description = 'Genre'
+
+
 class BookInstance(models.Model):  #Модель BookInstance
     """
     Model representing a specific copy of a book (i.e. that can be borrowed from the library).
@@ -112,3 +120,13 @@ class Author(models.Model):  #Модель автора
         String for representing the Model object.
         """
         return '%s, %s' % (self.last_name, self.first_name)
+
+    def display_books(self):
+        """
+        Создает строку для отображения названий книг.
+        Это необходимо для отображения книг в админке.
+        """
+        return ', '.join([book.title for book in Book.objects.filter(author=self)[:3]])
+    display_books.short_description = 'Books'
+
+
