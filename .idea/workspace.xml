@@ -4,11 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8aae065-86b1-435d-a796-2dc86f948424" name="Changes" comment="Display of lists and detailed information">
+    <list default="true" id="e8aae065-86b1-435d-a796-2dc86f948424" name="Changes" comment="Sessions">
+      <change afterPath="$PROJECT_DIR$/locallibrary/catalog/templates/registration/logged_out.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locallibrary/catalog/templates/registration/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locallibrary/catalog/templates/registration/password_reset_complete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locallibrary/catalog/templates/registration/password_reset_confirm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locallibrary/catalog/templates/registration/password_reset_done.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locallibrary/catalog/templates/registration/password_reset_email.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locallibrary/catalog/templates/registration/password_reset_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locallibrary/catalog/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/locallibrary/catalog/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locallibrary/catalog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/locallibrary/catalog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locallibrary/catalog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/locallibrary/catalog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locallibrary/catalog/templates/base_generic.html" beforeDir="false" afterPath="$PROJECT_DIR$/locallibrary/catalog/templates/base_generic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locallibrary/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/locallibrary/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/locallibrary/locallibrary/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/locallibrary/locallibrary/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locallibrary/locallibrary/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/locallibrary/locallibrary/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +114,7 @@
       <workItem from="1733189882314" duration="23334000" />
       <workItem from="1733285415069" duration="3158000" />
       <workItem from="1733288665512" duration="307000" />
-      <workItem from="1733289239088" duration="1879000" />
+      <workItem from="1733289239088" duration="5758000" />
     </task>
     <task id="LOCAL-00001" summary="create models for books and authors">
       <option name="closed" value="true" />
@@ -147,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733289813711</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Sessions">
+      <option name="closed" value="true" />
+      <created>1733291283184</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733291283184</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,7 +175,8 @@
     <MESSAGE value="admin panel" />
     <MESSAGE value="Home page" />
     <MESSAGE value="Display of lists and detailed information" />
-    <option name="LAST_COMMIT_MESSAGE" value="Display of lists and detailed information" />
+    <MESSAGE value="Sessions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sessions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
