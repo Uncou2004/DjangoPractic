@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8aae065-86b1-435d-a796-2dc86f948424" name="Changes" comment="Home page">
-      <change afterPath="$PROJECT_DIR$/locallibrary/catalog/templates/catalog/author_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locallibrary/catalog/templates/catalog/author_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locallibrary/catalog/templates/catalog/book_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locallibrary/catalog/templates/catalog/book_list.html" afterDir="false" />
+    <list default="true" id="e8aae065-86b1-435d-a796-2dc86f948424" name="Changes" comment="Display of lists and detailed information">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locallibrary/catalog/templates/base_generic.html" beforeDir="false" afterPath="$PROJECT_DIR$/locallibrary/catalog/templates/base_generic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locallibrary/catalog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/locallibrary/catalog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locallibrary/catalog/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/locallibrary/catalog/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/locallibrary/catalog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/locallibrary/catalog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locallibrary/locallibrary/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/locallibrary/locallibrary/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +105,7 @@
       <workItem from="1733189882314" duration="23334000" />
       <workItem from="1733285415069" duration="3158000" />
       <workItem from="1733288665512" duration="307000" />
-      <workItem from="1733289239088" duration="315000" />
+      <workItem from="1733289239088" duration="1879000" />
     </task>
     <task id="LOCAL-00001" summary="create models for books and authors">
       <option name="closed" value="true" />
@@ -143,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733281583599</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Display of lists and detailed information">
+      <option name="closed" value="true" />
+      <created>1733289813711</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733289813711</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,7 +157,8 @@
     <MESSAGE value="create models for books and authors" />
     <MESSAGE value="admin panel" />
     <MESSAGE value="Home page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Home page" />
+    <MESSAGE value="Display of lists and detailed information" />
+    <option name="LAST_COMMIT_MESSAGE" value="Display of lists and detailed information" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
